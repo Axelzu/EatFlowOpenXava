@@ -14,7 +14,6 @@ steps:
     options: '-Dtest=OrderDiscountCalculatorTest'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    javaHomeOption: 'HostSystem'
 
 - task: PublishTestResults@2
   displayName: 'Publicar resultados de prueba'
